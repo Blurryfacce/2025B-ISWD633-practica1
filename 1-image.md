@@ -17,6 +17,7 @@ Descargar la imagen **hello-world**
 # COMPLETAR
 
 **¿Qué es nginx**
+Nginx es un software de código abierto que funciona como servidor web, proxy inverso, balanceador de carga y caché de contenido, destacando por su alto rendimiento y eficiencia en el manejo de múltiples conexiones simultáneas gracias a su arquitectura basada en eventos. 
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
@@ -46,6 +47,7 @@ Inspeccionar la imagen hello-world
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
+SHA256
 # COMPLETAR
 
 ### Filtrar imágenes

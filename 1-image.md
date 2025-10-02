@@ -3,14 +3,16 @@
 Descarga la última versión de la imagen disponible en el registro de Docker.
 
 ```
-docker pull <nombre imagen> 
+<img width="725" height="202" alt="image" src="https://github.com/user-attachments/assets/b4c2b8f2-cea2-4a9d-98af-4bd10b431ae2" />
+
 ```
 
 Descarga una versión específica de la imagen, cada imagen tiene etiquetas (tags) para diferentes versiones.
 Una imagen puede tener la etiqueta latest para representar la última versión, si no se especifica una etiqueta se hará referencia a la versión latest.
 
 ```
-docker pull <nombre imagen>:<tag>
+<img width="886" height="183" alt="image" src="https://github.com/user-attachments/assets/ce99e70f-1d67-4a7d-88e2-08ca8da25b64" />
+
 ```
 
 Descargar la imagen **hello-world**
@@ -26,7 +28,8 @@ Descargar la imagen  **nginx** en la versión **alpine**
 ### Listar imágenes
 
 ```
-docker images
+<img width="886" height="304" alt="image" src="https://github.com/user-attachments/assets/15bbf297-591e-406e-892c-38b0fd8760bc" />
+
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
@@ -41,6 +44,11 @@ El comando docker inspect se utiliza para obtener información detallada sobre u
 ```
 docker inspect <nombre imagen>
 docker inspect <nombre imagen>:<tag>
+
+<img width="886" height="367" alt="image" src="https://github.com/user-attachments/assets/716c7be9-5b22-43ec-8783-942c6986e245" />
+<img width="886" height="566" alt="image" src="https://github.com/user-attachments/assets/c59b66f5-1eea-4313-af9a-e340d2d25aa0" />
+
+
 ```
 
 Inspeccionar la imagen hello-world 
@@ -54,6 +62,8 @@ SHA256
 
 ```
 docker images | grep <termino a buscar>
+<img width="741" height="102" alt="image" src="https://github.com/user-attachments/assets/253868ca-3c34-4626-a225-6536fa9152d5" />
+
 
 ```
 
@@ -62,6 +72,9 @@ Eliminar permanentemente la imagen de tu sistema Docker.
 
 ```
 docker rmi <nombre imagen>:<tag>
+
+<img width="886" height="213" alt="image" src="https://github.com/user-attachments/assets/814ab536-776f-4c72-840d-3ac04ced4d66" />
+
 ```
 
 Eliminar la imagen hello-world 
@@ -76,3 +89,11 @@ Es una buena práctica detener y eliminar todos los contenedores que dependan de
 ```
 docker rmi -f <nombre imagen>:<tag>
 ```
+
+```
+docker run hello-world
+
+<img width="886" height="573" alt="image" src="https://github.com/user-attachments/assets/026bc245-d109-4630-afd7-3f602f8b4b52" />
+
+```
+
